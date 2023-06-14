@@ -1,0 +1,243 @@
+@media screen {
+  body {
+    background-image: url(/img/dice_background.jfif);
+  }
+
+  .container {
+    position: relative;
+    border: 20px solid rgb(7, 7, 7);
+    padding: 9%;
+    margin-left: 10%;
+    width: 420px;
+    height: 465px;
+    background-color: rgb(255, 250, 248);
+  }
+
+  .title-text {
+    margin-left: 25%;
+    margin-top: -15%;
+  }
+
+  .button-container {
+    width: 33%;
+    float: left;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .throw-dice-button {
+    transition-duration: 0.6s;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    height: 105px;
+    width: 110px;
+    border: 8px solid black;
+  }
+
+  .higer-button {
+    transition-duration: 0.6s;
+    background-color: #97b699;
+    color: white;
+    cursor: pointer;
+    height: 105px;
+    width: 110px;
+    border: 8px solid black;
+  }
+
+  .lower-button {
+    transition-duration: 0.6s;
+    background-color: #97b699;
+    color: white;
+    cursor: pointer;
+    height: 105px;
+    width: 110px;
+    border: 8px solid black;
+  }
+
+  .the-trow {
+    background-color: rgb(94, 201, 104);
+    border: 10px solid rgb(0, 0, 0);
+    width: 180px;
+    height: 90px;
+    margin-left: 26%
+  }
+
+  .white-blocks {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    margin-left: 10%;
+  }
+
+  .white-blocks2 {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    margin-left: 58%;
+    margin-top: -33.5%;
+  }
+
+  .credits {
+    font-weight: bold;
+    font-size: 14pt;
+    background-color: rgb(190, 242, 223);
+    width: 220px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: -50px;
+    border: 10px solid black
+  }
+
+  .version {
+    float: right;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14pt;
+    padding-top: 80px;
+  }
+
+  #buttonHigh:hover:disabled{
+    background-color: red;
+  }
+
+  #buttonLow:hover:disabled{
+    background-color: red;
+  }
+
+  #buttonThrow:hover:disabled{
+    background-color: red;
+  }
+
+  button:hover {
+    cursor: pointer;
+    background-color: rgb(71, 228, 57);
+  }
+
+  #credits-text {
+    font-weight: bold;
+    margin-top: 5%;
+    padding-left: 10px;
+  }
+
+  #credits-counter {
+    font-weight: bold;
+    margin-top: -18.5%;
+    margin-left: 40%;
+  }
+
+  .the-trow-second {
+    background-color: rgb(94, 201, 104);
+    border: 10px solid rgb(0, 0, 0);
+    width: 180px;
+    height: 90px;
+    margin-left: 28%
+  }
+
+  .white-blocks-second {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    margin-left: 10%;
+  }
+
+  .white-blocks2-second {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    margin-left: 58%;
+    margin-top: -33.5%;
+  }
+
+  #trow-counter1 {
+    font-weight: bold;
+    font-size: 20pt;
+    margin-top: -25%;
+    margin-left: 18.5%;
+  }
+
+  #trow-counter2 {
+    font-weight: bold;
+    font-size: 20pt;
+    margin-top: -31.2%;
+    margin-left: 66.5%;
+  }
+
+  #worp-bank {
+    font-weight: bolder;
+    font-size: 15pt;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+
+  #trow-counter-second1 {
+    font-weight: bold;
+    font-size: 20pt;
+    margin-top: -25%;
+    margin-left: 18.5%;
+  }
+
+  #trow-counter-second2 {
+    font-weight: bold;
+    font-size: 20pt;
+    margin-top: -31.2%;
+    margin-left: 66.5%;
+  }
+
+  #console-html {
+    height: 350px;
+    width: 500px;
+    background-color: white;
+    border: 10px solid rgb(0, 0, 0);
+    margin-top: -45%;
+    margin-left: 62%;
+    overflow-y: scroll;
+  }
+
+  #gain-tickets-div {
+    height: 120px;
+    width: 350px;
+    background-color: white;
+    border: 10px solid rgb(0, 0, 0);
+    margin-left: 67%;
+    margin-top: 3%;
+  }
+
+  #click-to-gain {
+    height: 40px;
+    width: 150px;
+    margin-left: 30%;
+    border: 3px solid rgb(0, 0, 0);
+    margin-top: 19%;
+  }
+  
+  #winner-text{
+    color: rgb(47, 180, 47);
+  }
+
+  #gain-counter {
+    font-size: 15pt;
+    margin-top: -24%;
+    margin-left: 48%;
+  }
+
+  #Game-rules{
+    height: 40px;
+    width: 150px;
+    border: 3px solid rgb(0, 0, 0);
+    float: right;
+    margin-top: -50px;
+    
+  }
+}
+
+@media screen and (max-width:1410px) {
+
+
+  #console-html{
+    width:300px;
+  }
+}
+

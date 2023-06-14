@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoger lager</title>
+    <style>
+
+    </style>
+    <style>
+        .wrapper{
+            width:1000px;
+            height:600px;
+            margin:auto;
+     
+        }
+
+        .container{
+            box-sizing: border-box;
+            width:50%;
+            height:500px;
+            float:left;
+            padding:10px;
+            border:3px solid black;
+        }
+
+        
+        #console-html, #gain-tickets-div {
+            border:3px solid black;
+            margin:50px;
+            padding:10px
+        }
+
+
+        .button-container{
+            text-align: center;
+        }
+
+        button{
+           
+            width:150px;
+            height:120px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <!-- <link rel="stylesheet" href="/css/mystyle.css"> -->
+    <div class="wrapper">
+        <div class="container left">
+
+            <div>
+                <h1 class="title-text">Hoger Lager V1</h1>
+            </div>
+
+    
+
+            <div class="button-container">
+                <button class="higer-button">Hoger</button>
+                <button class="throw-dice-button">Gooi Dobbelstenen</button>
+                <button class="lower-button">Lager</button>
+            </div>
+
+
+
+            <div class="the-trow">
+                <br>
+                <div class="white-blocks"></div>
+                <div class="white-blocks2"></div>
+                <p id="trow-counter1"></p>
+                <p id="trow-counter2"></p>
+            </div>
+
+            <p id="worp-bank">Worp van de bank</p>
+
+
+            <div class="the-trow">
+                <br>
+                <div class="white-blocks"></div>
+                <div class="white-blocks2"></div>
+                <p id="trow-counter-second1"></p>
+                <p id="trow-counter-second2"></p>
+            </div>
+
+            <div class="credits">
+                <p id="credits-text">Credits:</p>
+                <p id="credits-counter"></p>
+            </div>
+        </div>
+
+        <div class="container right">
+            <div id="console-html">
+                <p id="innertext-console-html"></p>
+            </div>
+
+            <div id="gain-tickets-div">
+                <button id="click-to-gain">Click 250 times for credits!</button>
+                <p id="gain-counter">0</p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <script type="application/javascript" src="/js/mains.js"></script>
+
+</body>
+
+</html>
